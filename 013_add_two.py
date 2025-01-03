@@ -5,7 +5,8 @@ from lib.helpers import check_that_these_are_equal
 # Now you try. Here's an exercise for you:
 #
 # @TASK: Write a function called `add_two` that:
-#
+def add_two(number):
+  return number + 2
 # * Takes a number as input
 # * Adds two to it
 # * Returns the result

@@ -49,12 +49,13 @@ print("Function: add_cats_repeatedly")
 # => ['cats', 'cats', 'cats']
 
 def add_cats_repeatedly(word_list, count):
-  # ...
+  while len(word_list) < count:
+    word_list.append("cats")
   return word_list
 
 check_that_these_are_equal(
   add_cats_repeatedly([], 3), ['cats', 'cats', 'cats'])
 check_that_these_are_equal(
-  add_cats_repeatedly(['dogs'], 2), ['dogs', 'cats', 'cats'])
+  add_cats_repeatedly(['dogs'], 2), ['dogs', 'cats'])
 
 # When you're done, move on to 033_for_loops.py

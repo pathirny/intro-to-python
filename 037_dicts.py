@@ -20,6 +20,11 @@ my_dictionary = {
   "List": "A sequence of any item",
 }
 
+dictionary = {
+    "Name": "Patryk",
+    "LastName": "Hirny"
+}
+print(dictionary["Name"])
 # Note that:
 #
 # * We use braces `{` and `}` to tell Python that this is a
